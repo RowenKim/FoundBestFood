@@ -1,0 +1,1 @@
+SELECT * FROM board; -- 이전 작업했던 테이블 확인(DB 연동 여부 체크)
