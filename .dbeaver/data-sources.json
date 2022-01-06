@@ -1,0 +1,33 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-17e2db2205c-16f10547f7fcb65f": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "rowendb716",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "rowendb716",
+				"url": "jdbc:mysql://localhost:3306/rowendb716",
+				"home": "C:\\Program Files\\MySQL\\MySQL Router 8.0",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
