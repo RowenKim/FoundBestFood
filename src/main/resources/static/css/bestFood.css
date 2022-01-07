@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+#mainNav{
+	margin:auto;
+}
+#mainNav li{
+	padding:10px;
+	padding-right:20px;
+}
+
+#joinInfo{
+	display:inline-block;
+}
+
+#button-newsletter{
+	color:black;
+	margin-right:170px;
+}
+
