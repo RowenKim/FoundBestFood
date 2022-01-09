@@ -8,10 +8,18 @@
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/css/styles.css">
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/css/bestFood.css">
 <link rel="stylesheet" type="text/js" href="${pageContext.request.contextPath }/js/script.js">
+<link rel="stylesheet" type="text/js" href="${pageContext.request.contextPath }/js/index.js">
 <!-- Favicon-->
 <link rel="icon" type="image/x-icon" href="${pageContext.request.contextPath }/assets/favicon.ico" />
 <!-- Bootstrap icons-->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+<script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDriRVpcglIAnOD2U0tiAVrD9bk8S-096U&callback=initMap&libraries=&v=weekly"
+        defer
+      ></script>
+      <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/css/styles.css" />
+      <script src="${pageContext.request.contextPath }/js/index.js"></script>
+      
 </head>
 <body class="d-flex flex-column">
 	<div style="padding:0; margin-right:200px; text-align:right;">
@@ -133,7 +141,48 @@
 	            </div>
 	        </div>
 	    </section>
-	</main>
+      <section class="py-5">
+         <div class="container px-5">
+             <div class="card border-0 shadow rounded-3 overflow-hidden">
+                     <div class="row gx-0">
+                         <div class="col-lg-6 col-xl-7"><div class="bg-featured-blog" style="background-image: url('https://dummyimage.com/700x350/343a40/6c757d')"></div></div>
+                         <div class="col-lg-6 col-xl-5 py-lg-5">
+                             <div class="p-4 p-md-5">
+                                 <div class="h2 fw-bolder">공지사항</div>
+                                 <p class="lead fw-normal text-muted mb-0"><a href="#">첫번째 게시글</a></p>
+                   <p class="lead fw-normal text-muted mb-0"><a href="#">두번째 게시글</a></p>
+                   <p class="lead fw-normal text-muted mb-0"><a href="#">세번째 게시글</a></p>
+                   <p class="lead fw-normal text-muted mb-0"><a href="#">네번째 게시글</a></p>
+                   <p class="lead fw-normal text-muted mb-0"><a href="#">다섯번째 게시글</a></p>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+         </div>
+     </section>
+     <section class="py-5">
+         <div class="container px-5 my-5">
+             <div class="row gx-5 align-items-center">
+                 <div class="col-lg-6" style="padding-bottom:20px;"><h2 class="fw-bolder">실시간 정보공유 TOP5</h2>
+                     <p class="lead fw-normal text-muted mb-0"><a href="#">첫번째 게시글</a></p>
+                     <p class="lead fw-normal text-muted mb-0"><a href="#">두번째 게시글</a></p>
+                     <p class="lead fw-normal text-muted mb-0"><a href="#">세번째 게시글</a></p>
+                     <p class="lead fw-normal text-muted mb-0"><a href="#">네번째 게시글</a></p>
+                     <p class="lead fw-normal text-muted mb-0"><a href="#">다섯번째 게시글</a></p>
+                 </div>
+                 <div class="col-lg-6">
+                     <h2 class="fw-bolder">실시간 소통하기 TOP5</h2>
+                     <p class="lead fw-normal text-muted mb-0"><a href="#">첫번째 게시글</a></p>
+                     <p class="lead fw-normal text-muted mb-0"><a href="#">두번째 게시글</a></p>
+                     <p class="lead fw-normal text-muted mb-0"><a href="#">세번째 게시글</a></p>
+                     <p class="lead fw-normal text-muted mb-0"><a href="#">네번째 게시글</a></p>
+                     <p class="lead fw-normal text-muted mb-0"><a href="#">다섯번째 게시글</a></p>
+                 </div>
+             </div>
+         </div>
+         <div id="map"></div>
+     </section>
+     
 	<!-- Footer-->
 	<footer class="bg-dark py-4 mt-auto">
 	    <div class="container px-5">
