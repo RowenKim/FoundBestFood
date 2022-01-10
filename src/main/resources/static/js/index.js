@@ -1,4 +1,3 @@
-"use strict";
 /**
  *
  */
@@ -15,5 +14,6 @@ function initMap() {
     const marker = new google.maps.Marker({
         position: uluru,
         map: map,
+		title: "서울!",
     });
 }

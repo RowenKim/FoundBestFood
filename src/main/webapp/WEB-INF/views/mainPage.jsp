@@ -24,10 +24,10 @@
 <body class="d-flex flex-column">
 	<div style="padding:0; margin-right:200px; text-align:right;">
 		<a href="#">join</a>
-		<a href="#">login</a>
+		<a href="/meal/login">login</a>
 	</div>
 	<div class="text-center mb-1">
-	    <h1 class="fw-bolder" style="padding-top:50px;">먹보들의 올블루</h1>
+	    <h1 class="fw-bolder" style="padding-top:50px;"><a id="main_logo"href="/meal/main">먹보들의 올블루</a></h1>
 	    <p class="lead fw-normal text-muted mb-0">How many can you eat Burger?</p>
 	</div>
 	<form action="/meal/main">
@@ -51,7 +51,7 @@
 	                <li class="nav-item"><a class="nav-link" href="index.html">공지사항</a></li>
 	                <li class="nav-item"><a class="nav-link" href="about.html">소통하기</a></li>
 	                <li class="nav-item"><a class="nav-link" href="contact.html">맛집공유</a></li>
-	                <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+	                <li class="nav-item"><a class="nav-link" href="faq.html">My SNS</a></li>
 	                <li class="nav-item dropdown">
 	                    <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
 	                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
@@ -135,6 +135,53 @@
 	                                    </div>
 	                                </div>
 	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </section>
+	  <section class="py-5">
+	        <div class="container px-5">
+	            <h2 class="fw-bolder fs-10 mb-8" style="text-align:center; padding-bottom:30px;">SNS TOP5</h2>
+	            <div class="row gx-5">
+	                <div class="col-lg-12 mb-3">
+	                    <div class="card h-100 shadow border-0">
+	                        <div class="card-body p-4">
+	                            <a class="text-decoration-none link-dark stretched-link" href="#!"><div class="h5 card-title mb-3">레스토랑</div></a>
+	                            <p class="card-text mb-0">파스타</p>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="col-lg-12 mb-3">
+	                    <div class="card h-100 shadow border-0">
+	                        <div class="card-body p-4">
+	                            <a class="text-decoration-none link-dark stretched-link" href="#!"><div class="h5 card-title mb-3">레스토랑</div></a>
+	                            <p class="card-text mb-0">파스타</p>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="col-lg-12 mb-3">
+	                    <div class="card h-100 shadow border-0">
+	                        <div class="card-body p-4">
+	                            <a class="text-decoration-none link-dark stretched-link" href="#!"><div class="h5 card-title mb-3">레스토랑</div></a>
+	                            <p class="card-text mb-0">파스타</p>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="col-lg-12 mb-3">
+	                    <div class="card h-100 shadow border-0">
+	                        <div class="card-body p-4">
+	                            <a class="text-decoration-none link-dark stretched-link" href="#!"><div class="h5 card-title mb-3">레스토랑</div></a>
+	                            <p class="card-text mb-0">파스타</p>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="col-lg-12 mb-3">
+	                    <div class="card h-100 shadow border-0">
+	                        <div class="card-body p-4">
+	                            <a class="text-decoration-none link-dark stretched-link" href="#!"><div class="h5 card-title mb-3">레스토랑</div></a>
+	                            <p class="card-text mb-0">파스타</p>
 	                        </div>
 	                    </div>
 	                </div>
