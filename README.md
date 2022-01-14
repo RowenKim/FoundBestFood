@@ -7,7 +7,7 @@ ___
 ## 1. 페이지 전체 흐름도
 ![페이지 흐름도](https://user-images.githubusercontent.com/90335434/149460779-abf48de4-8736-46fc-99db-91bd0609fedd.png)
 
-## 2. DB 설계
+## 2. ERD 설계
 
 ![BestFoodUpdateERD drawio](https://user-images.githubusercontent.com/90335434/149454422-70e90b18-dede-42bf-b881-b52d552275d0.png)
 
