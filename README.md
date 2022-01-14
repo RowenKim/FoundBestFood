@@ -9,7 +9,7 @@ ___
 
 ## 2. DB 설계
 
-![BestFoodUpdateERD drawio](https://user-images.githubusercontent.com/90335434/149454264-a8563ef4-64f4-4d52-817e-f87ee73a4618.png)
+![BestFoodUpdateERD drawio](https://user-images.githubusercontent.com/90335434/149454422-70e90b18-dede-42bf-b881-b52d552275d0.png)
 
 
 
