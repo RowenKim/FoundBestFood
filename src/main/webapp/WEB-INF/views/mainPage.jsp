@@ -149,11 +149,11 @@
                          <div class="col-lg-6 col-xl-5 py-lg-5">
                              <div class="p-4 p-md-5">
                                  <div class="h2 fw-bolder">공지사항(배너사이즈 925 * 360)</div>
-                                 <p class="lead fw-normal text-muted mb-0"><a href="#">첫번째 게시글</a></p>
-								<p class="lead fw-normal text-muted mb-0"><a href="#">두번째 게시글</a></p>
-								<p class="lead fw-normal text-muted mb-0"><a href="#">세번째 게시글</a></p>
-								<p class="lead fw-normal text-muted mb-0"><a href="#">네번째 게시글</a></p>
-								<p class="lead fw-normal text-muted mb-0"><a href="#">다섯번째 게시글</a></p>
+                                 <p class="lead fw-normal text-muted mb-0"><a href="/meal/noticeDetail?uid=1">첫번째 게시글</a></p>
+								<p class="lead fw-normal text-muted mb-0"><a href="/meal/noticeDetail?uid=1">두번째 게시글</a></p>
+								<p class="lead fw-normal text-muted mb-0"><a href="/meal/noticeDetail?uid=1">세번째 게시글</a></p>
+								<p class="lead fw-normal text-muted mb-0"><a href="/meal/noticeDetail?uid=1">네번째 게시글</a></p>
+								<p class="lead fw-normal text-muted mb-0"><a href="/meal/noticeDetail?uid=1">다섯번째 게시글</a></p>
                              </div>
                          </div>
                      </div>
