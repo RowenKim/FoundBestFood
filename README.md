@@ -8,7 +8,8 @@ ___
 ![220106_웹페이지 전체 흐름도](https://share.balsamiq.com/c/t7dJUkaefEG9N6QYptgkbE.png)
 
 ## 2. DB 설계
-![220114 DB 설계 ERD](https://user-images.githubusercontent.com/90335434/149439923-2d45941b-f319-4d5d-ad8c-7218f68bfc62.png)
+
+![BestFoodUpdateERD drawio](https://user-images.githubusercontent.com/90335434/149454264-a8563ef4-64f4-4d52-817e-f87ee73a4618.png)
 
 
 
