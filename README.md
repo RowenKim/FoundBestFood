@@ -5,7 +5,7 @@ ___
 # 페이지 설계
 
 ## 1. 페이지 전체 흐름도
-![220106_웹페이지 전체 흐름도](https://share.balsamiq.com/c/t7dJUkaefEG9N6QYptgkbE.png)
+![페이지 흐름도](https://user-images.githubusercontent.com/90335434/149460779-abf48de4-8736-46fc-99db-91bd0609fedd.png)
 
 ## 2. DB 설계
 
