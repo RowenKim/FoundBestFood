@@ -14,62 +14,15 @@
 <!-- Bootstrap icons-->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
 <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDriRVpcglIAnOD2U0tiAVrD9bk8S-096U&callback=initMap&libraries=&v=weekly"
-        defer
-      ></script>
-      <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/css/styles.css" />
-      <script src="${pageContext.request.contextPath }/js/index.js"></script>
-      
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDriRVpcglIAnOD2U0tiAVrD9bk8S-096U&callback=initMap&libraries=&v=weekly"
+  defer
+></script>
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/css/styles.css" />
+<script src="${pageContext.request.contextPath }/js/index.js"></script>
+<script src="https://kit.fontawesome.com/ccbdf9af0c.js" crossorigin="anonymous"></script>
 </head>
-<body class="d-flex flex-column">
-	<div style="padding:0; margin-right:200px; text-align:right;">
-		<a href="#">join</a>
-		<a href="/meal/login">login</a>
-	</div>
-	<div class="text-center mb-1">
-	    <h1 class="fw-bolder" style="padding-top:50px;"><a id="main_logo"href="/meal/main">먹보들의 올블루</a></h1>
-	    <p class="lead fw-normal text-muted mb-0">How many can you eat Burger?</p>
-	</div>
-	<form action="/meal/main">
-		<aside class="bg-gradient rounded-1 p-2 p-sm-4 mt-1">
-			<div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start" style="float:right;">	
-			     <div class="ms-xl-4">
-	                 <div class="input-group mb-2">
-	                     <input name="serach" class="form-control" type="text" placeholder="serach" aria-label="Email address..." aria-describedby="button-newsletter" />
-	                     <button class="btn btn-outline-light" id="button-newsletter" type="submit">검색</button>
-	                 </div>
-	             </div>
-			</div>
-		</aside>
-	</form>
-<!-- Navigation-->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-	    <div class="container px-5">
-	        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-	        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="mainNav">
-	                <li class="nav-item"><a class="nav-link" href="index.html">공지사항</a></li>
-	                <li class="nav-item"><a class="nav-link" href="about.html">소통하기</a></li>
-	                <li class="nav-item"><a class="nav-link" href="contact.html">맛집공유</a></li>
-	                <li class="nav-item"><a class="nav-link" href="faq.html">My SNS</a></li>
-	                <li class="nav-item dropdown">
-	                    <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
-	                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-	                        <li><a class="dropdown-item" href="blog-home.html">Blog Home</a></li>
-	                        <li><a class="dropdown-item" href="blog-post.html">Blog Post</a></li>
-	                    </ul>
-	                </li>
-	                <li class="nav-item dropdown">
-	                    <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
-	                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
-	                        <li><a class="dropdown-item" href="portfolio-overview.html">Portfolio Overview</a></li>
-	                        <li><a class="dropdown-item" href="portfolio-item.html">Portfolio Item</a></li>
-	                    </ul>
-	                </li>
-	            </ul>
-	        </div>
-	    </div>
-	</nav>
+<body>
+<jsp:include page="header.jsp" />
 	    <!-- Blog preview section-->
 	    <section class="py-5">
 	        <div class="container px-5">
@@ -192,15 +145,15 @@
          <div class="container px-5">
              <div class="card border-0 shadow rounded-3 overflow-hidden">
                      <div class="row gx-0">
-                         <div class="col-lg-6 col-xl-7"><div class="bg-featured-blog" style="background-image: url('https://dummyimage.com/700x350/343a40/6c757d')"></div></div>
+                         <div class="col-lg-6 col-xl-7"><div class="bg-featured-blog" style="background-image: url('${pageContext.request.contextPath }/uploadFile/TestBaner.png')"></div></div>
                          <div class="col-lg-6 col-xl-5 py-lg-5">
                              <div class="p-4 p-md-5">
-                                 <div class="h2 fw-bolder">공지사항</div>
+                                 <div class="h2 fw-bolder">공지사항(배너사이즈 925 * 360)</div>
                                  <p class="lead fw-normal text-muted mb-0"><a href="#">첫번째 게시글</a></p>
-                   <p class="lead fw-normal text-muted mb-0"><a href="#">두번째 게시글</a></p>
-                   <p class="lead fw-normal text-muted mb-0"><a href="#">세번째 게시글</a></p>
-                   <p class="lead fw-normal text-muted mb-0"><a href="#">네번째 게시글</a></p>
-                   <p class="lead fw-normal text-muted mb-0"><a href="#">다섯번째 게시글</a></p>
+								<p class="lead fw-normal text-muted mb-0"><a href="#">두번째 게시글</a></p>
+								<p class="lead fw-normal text-muted mb-0"><a href="#">세번째 게시글</a></p>
+								<p class="lead fw-normal text-muted mb-0"><a href="#">네번째 게시글</a></p>
+								<p class="lead fw-normal text-muted mb-0"><a href="#">다섯번째 게시글</a></p>
                              </div>
                          </div>
                      </div>
@@ -229,25 +182,10 @@
          </div>
          <div id="map"></div>
      </section>
-     
-	<!-- Footer-->
-	<footer class="bg-dark py-4 mt-auto">
-	    <div class="container px-5">
-	        <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-	            <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Your Website 2021</div></div>
-	            <div class="col-auto">
-	                <a class="link-light small" href="#!">Privacy</a>
-	                <span class="text-white mx-1">&middot;</span>
-	                <a class="link-light small" href="#!">Terms</a>
-	                <span class="text-white mx-1">&middot;</span>
-	                <a class="link-light small" href="#!">Contact</a>
-	            </div>
-	        </div>
-	    </div>
-	</footer>
-	<!-- Bootstrap core JS-->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-	<!-- Core theme JS-->
-	<script src="js/scripts.js"></script>
-   </body>
+<jsp:include page="footer.jsp" />
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+</body>
 </html>

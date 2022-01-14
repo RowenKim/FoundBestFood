@@ -96,7 +96,34 @@
     text-decoration:none;
     color:#fff;
 }
-#main_logo{
+#main_logo, .joinLogin, .noticeTitle, .commentOfWrite{
 	text-decoration:none;
     color:black;
+}
+
+#noticeTable td{
+	padding:20px 10px;
+}
+
+#paging li a{
+	background-color:gray;
+	color:white;
+}
+#paging li a:hover{
+	background-color:black;
+}
+#commentWrite{
+	background-color:gray;
+	margin-top:10px;
+}
+#commentWrite:hover{
+	background-color:white;
+	color:black;
+}
+#like{
+	margin-bottom:20px;
+}
+#like:hover{
+	color:pink;
+	cursor:pointer;
 }
