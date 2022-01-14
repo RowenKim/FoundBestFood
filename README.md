@@ -8,7 +8,8 @@ ___
 ![220106_웹페이지 전체 흐름도](https://user-images.githubusercontent.com/90335434/148332221-8cd7badb-e10e-4491-b3ab-de0dbda4b058.jpg)
 
 ## 2. DB 설계
-![220109 DB 설계 ERD](https://user-images.githubusercontent.com/90335434/148672037-61f13184-2a6e-4cd0-bc2c-677e70cc3281.png)
+![220114 DB 설계 ERD](https://user-images.githubusercontent.com/90335434/149439923-2d45941b-f319-4d5d-ad8c-7218f68bfc62.png)
+
 
 
 > 회원, 회원권한, 회원탈퇴여부, 소통하기, 소통하기댓글, 정보공유, 정보공유댓글, 고객센터, 고객센터댓글, 공지사항 테이블로 설계
